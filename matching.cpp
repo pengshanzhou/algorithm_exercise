@@ -16,7 +16,7 @@ bool ismatch(char *src, char *dest)
 	while(*src!=0 && *dest!=0 )
 	{
 		if(*src==*dest || *src=='?')
-		{
+		{ 
 			++src;
 			++dest;
 		}
@@ -26,9 +26,9 @@ bool ismatch(char *src, char *dest)
 			while(*dest!= 0)
 			{
 			  if(ismatch(src,dest++))
-		      return 1;
+		          return 1;
 			}
-            break;
+                  break;
 		}
 		else if(*src != *dest )
 		return 0;
