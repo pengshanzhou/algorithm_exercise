@@ -25,6 +25,7 @@ bool ismatch(char *src, char *dest)
 			++src;
 			while(*dest!= 0)
 			{
+			  if(strlen(src)>strlen(dest))break;
 			  if(ismatch(src,dest++))
 		          return 1;
 			}
