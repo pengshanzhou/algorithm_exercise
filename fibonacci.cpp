@@ -1,12 +1,12 @@
 /*
-输出fibonacci[n]
+锟斤拷锟斤拷fibonacci[n]
 */
 
 
 /*
-最重要一点 定义成long long 类型 才能AC 
+锟斤拷锟斤拷要一锟斤拷 锟斤拷锟斤拷锟斤拷long long 锟斤拷锟斤拷 锟斤拷锟斤拷AC 
 */
- 
+  
 #include<iostream>
 using namespace std;
 
